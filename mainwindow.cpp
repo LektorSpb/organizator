@@ -20,7 +20,5 @@ void MainWindow::on_pushButton_clicked()
 
   Olg = new MainWindow2(this);
     Olg->show();
-   // Olg.setModal(true);
-  //  Olg.exec();
-   // connect()
+
 }
