@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>386</width>
+    <height>330</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>110</y>
+      <x>100</x>
+      <y>240</y>
       <width>141</width>
       <height>23</height>
      </rect>
@@ -27,13 +27,30 @@
      <string>PushButton</string>
     </property>
    </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>264</width>
+      <height>155</height>
+     </rect>
+    </property>
+    <property name="maximumDate">
+     <date>
+      <year>3000</year>
+      <month>12</month>
+      <day>31</day>
+     </date>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>400</width>
+     <width>386</width>
      <height>21</height>
     </rect>
    </property>
