@@ -7,5 +7,6 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
 //первый первый раз два...а я вот день рожденье не буду справлять!Все...
+    //dksgjkslfdmg
     return a.exec();
 }
