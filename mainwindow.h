@@ -19,6 +19,8 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_calendarWidget_clicked(const QDate &date);
+
 private:
     Ui::MainWindow *ui;
     MainWindow2 *Olg;

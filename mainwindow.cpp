@@ -22,3 +22,8 @@ void MainWindow::on_pushButton_clicked()
     Olg->show();
 
 }
+
+void MainWindow::on_calendarWidget_clicked(const QDate &date)
+{
+    ui->lineEdit->setText(date.toString());
+}
